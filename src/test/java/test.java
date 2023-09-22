@@ -8,4 +8,9 @@ public class test {
     public void test() {
         assertEquals(TestClass.test(), true);
     }
+
+    @Test
+    public void test2() {
+        assertEquals(TestClass.test2(), true);
+    }
 }
