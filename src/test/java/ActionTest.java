@@ -4,7 +4,7 @@ import org.example.TestClass;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class testTest {
+public class ActionTest {
     @Test
     public void test() {
         assertTrue(TestClass.test());
@@ -13,5 +13,10 @@ public class testTest {
     @Test
     public void test2() {
         assertFalse(TestClass.test2());
+    }
+
+    @Test
+    public void test3() {
+        assertTrue(TestClass.test2());
     }
 }
