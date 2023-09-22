@@ -1,16 +1,17 @@
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.example.TestClass;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 public class testTest {
     @Test
     public void test() {
-        assertEquals(TestClass.test(), true);
+        assertTrue(TestClass.test());
     }
 
     @Test
     public void test2() {
-        assertEquals(TestClass.test2(), true);
+        assertFalse(TestClass.test2());
     }
 }
