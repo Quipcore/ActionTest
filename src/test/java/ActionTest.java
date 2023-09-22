@@ -22,7 +22,7 @@ public class ActionTest {
 
     @Test
     public void test4() {
-        assertEquals(TestClass.test3(4),-4);
+        assertEquals(TestClass.test3(4),-5);
     }
 
 }
